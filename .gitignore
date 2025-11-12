@@ -1,0 +1,29 @@
+# Virtual Environment
+agents/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+
+# VS Code
+.vscode/
+
+# Data (large files)
+data/*
+!data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
